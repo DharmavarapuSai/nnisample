@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.postimg.cc/7hR95dCB/NNI-logo.png" class="food-munch-logo" width="100%" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Services</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Doctor</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">About Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-left">
+            <h1 class="banner-heading ">Hi Doctor,</h1>
+            <h2 class="banner-heading">Welcome to the program on Fellowship in
+                Pediatric Nutrition</h2>
+            <p class="paragraph-unlock">Unlock exclusive access to Fellowship in Pediatric Nutrition with our unique scratch card feature. Simply scratch to reveal your access code and start learning today!</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1 class="thanking-customers-section-heading mb-4">
+                        Click below to get unique access code
+                    </h1>
+                    <div>
+                        <button type="button" class="custom-button mb-4" data-toggle="modal" data-target="#exampleModal">
+                            Scratch card
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                            Scratch below
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="f mt-3 mb-3">
+                                            <div class="scratch-container">
+                                                <div class="scratch-card">
+                                                    <div class="card m-5 mt-3">
+                                                        <p>DKHLJLEFKNSO</p>
+                                                    </div>
+                                                    <canvas id="scratch-card1" width="300" height="300"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                            Copy
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thanking-customers-section-description">
+                        <h1 class="Instructions-heading">Instructions:</h1>
+                        <p class="Instructions-points">1. Gently scratch the designated area on your scratch card to reveal your unique access code.</p>
+                        <p class="Instructions-points">2. Visit our website and navigate to the course enrollment page.</p>
+                        <p class="Instructions-points">3. Enter your access code in the designated field and click 'Submit' to proceed.</p>
+                        <p class="Instructions-points">4. Complete the registration process by providing your details and payment information, if applicable.</p>
+                        <p class="Instructions-points mb-5">5. Once registration is confirmed, you'll gain immediate access to the course materials and resources.</p>
+
+                        <h1 class="Instructions-heading">Note:</h1>
+                        <p class="Instructions-points">Each scratch card contains a single-use access code. Once the code is redeemed, it cannot be reused or transferred. Please keep your access code confidential to prevent unauthorized access to the course.</p>
+
+                    </div>
+                    <!-- <div class="d-md-none">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                    </div> -->
+
+                </div>
+                <!-- <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
